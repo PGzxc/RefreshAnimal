@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RefreshAnimal</string>
+    <string name="live_toast">已为您推荐了%1$s条新资讯</string>
+</resources>

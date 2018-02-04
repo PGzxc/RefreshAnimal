@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.scwang.smartrefresh.layout.SmartRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:srlEnableLoadmore="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+        <RelativeLayout
+            android:id="@+id/rl_top_toast"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#D6E9F6"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/live_toast"
+                android:textColor="#3393D5"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>
